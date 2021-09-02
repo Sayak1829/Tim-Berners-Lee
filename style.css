@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    text-align: center;
+    padding-top: 800px;
+}
+#img{
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 70px;
+        
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: white;
+    background: linear-gradient(to top left,blue,green,yellow,orange,red);
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+        
+}
+.div{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1 {
+    font-family: 'Acme', sans-serif;
+}
+p{
+    max-width: 450px;
+    line-height: 1.3;
+    margin: 25px auto;
+}
+#bio{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to top,Crimson,pink);
+}
+#menu {
+    position: absolute;
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.link{
+    float: left;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.link:hover{
+    text-decoration: underline;
+    color: aliceblue;
+    background-color: aqua;
+    font-size: 25px;
+}
+a:hover {
+    font-size: 30px;
+    color: cyan;
+}
